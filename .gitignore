@@ -18,3 +18,4 @@ chroma/
 # notebooks
 .ipynb_checkpoints
 db_mcp_server/create_vector_db.ipynb
+table_infos_back.pkl

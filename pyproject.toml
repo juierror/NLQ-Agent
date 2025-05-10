@@ -1,0 +1,20 @@
+[project]
+name = "nlq-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "chromadb>=1.0.8",
+    "fastmcp>=2.3.1",
+    "google-adk>=0.5.0",
+    "google-genai>=1.14.0",
+    "python-dotenv>=1.1.0",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "jupyterlab>=4.4.2",
+]

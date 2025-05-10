@@ -23,5 +23,7 @@ export DB_BASE_PATH="path to root of cosql dataset"
 uv run main.py
 
 # open another terminal and run adk
+export GOOGLE_GENAI_USE_VERTEXAI=FALSE
+export GOOGLE_API_KEY="ai studio api key"
 adk web
 ```

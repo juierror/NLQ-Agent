@@ -57,7 +57,7 @@ def database_query(dataset: str, sql_query: str) -> list[tuple[Any]]:
     Returns:
         list[tuple[Any]]: list of each tuple row in this example format [(column_1_value, column_2_value),...]
     """
-    db_path = os.path.join(DB_BASE_PATH, f"{dataset}/{dataset}.sqlite")
+    db_path = os.path.join(DB_BASE_PATH, f"database/{dataset}/{dataset}.sqlite")
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     cursor.execute(sql_query)
